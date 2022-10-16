@@ -1,0 +1,15 @@
+{
+  "name": "@workpack/app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@workpack/mylib": "^1.0.0"
+  }
+}

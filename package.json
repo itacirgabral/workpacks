@@ -1,0 +1,17 @@
+{
+  "name": "workpack",
+  "private": true,
+  "scripts": {
+    "compile": "tsc -b tsconfig.build.json",
+    "prepare": "npm run compile"
+  },
+  "workspaces": [
+    "mylib",
+    "app"
+  ],
+  "devDependencies": {
+    "@tsconfig/node16-strictest": "^1.0.4",
+    "@types/node": "^18.11.0",
+    "typescript": "^4.8.4"
+  }
+}
